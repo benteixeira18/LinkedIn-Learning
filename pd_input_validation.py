@@ -86,7 +86,7 @@ print(sorted_noc_bad)
 # countries with most medals from 1984 to 2008
 years = olympics[olympics.Edition >= 1984] 
 years_medals = years.NOC.value_counts()
-print(years_medals)
+print(years_medals.head(3))
 
 
 
